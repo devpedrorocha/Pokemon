@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+    font-family: Titillium Web, 'Arial';
+}
+
+p,
+body,
+h1,
+h2,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #54ADD9;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 2.5rem;
+    justify-content: center;
+    color: black;
+
+}
+
+h2 {
+    padding-bottom: 25px;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 930px;
+    width: 1000px;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pokemon_image {
+    height: 380px;
+    width: 380px;
+    background-color: rgb(220, 224, 230);
+    border-radius: 50%;
+    background-size: 90%;
+    background-image: url('img/lapras.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-shadow: 0px 0px 10px black;
+    padding: 25px;
+
+}
+
+span {
+    padding: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+.movesetdiv {
+    text-align: center;
+    background-color: #DCE0E6;
+    width: 70%;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+li {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    font-size: 17.5px;
+}
+
+li::before {
+    content: '';
+
+    width: 20px;
+    height: 20px;
+
+    background-image: url(img/pokeball.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-left: 40px;
+
+}
+
+
+button {
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid black;
+}
+
+#ver {
+    align-self: flex-end;
+    border-radius: 15px;
+    background-color: aqua;
+    border: solid 1px aqua;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: border 0.3s;
+
+
+}
+
+#ver:hover {
+    border: 1px solid black;
+
+}
+
+.golpe {
+    padding: 1rem;
+
+}
+
+#seletor {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 15px;
+    border: solid 1px aqua;
+    background-color: aqua;
+}
+
+.add {
+    padding: 0.5rem;
+    font-size: 1.05rem;
+
+    border-radius: 15px;
+    border: solid 1px aqua;
+    background-color: aqua;
+
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.add:hover {
+    border: 1px solid black;
+}
+
+.deleteBtn {
+    font-size: 16px;
+    transition: border 0.3s;
+    border: 1px solid #DCE0E6;
+}

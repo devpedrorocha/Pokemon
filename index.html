@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link rel="icon" type="image/x-icon" href="favicons/favicon-16x16.png">
+</head>
+
+<body>
+
+    <main class="wrapper">
+        <section>
+            <h1 id="nome">Lapras</h1>
+
+            <button id="ver" onclick="goToBulbapedia()">Ver mais</button>
+
+
+            <div id="pokemon_image"></div>
+            <span id='description'>A Pokémon that has been overhunted almost to extinction. It can ferry
+                people across the water.</span>
+
+            <div class="movesetdiv">
+
+                <h2>Moveset</h2>
+                <h3 id="noMoveset">Nenhum golpe adicionado ao moveset :(</h3>
+                <ul id="listMoves">
+
+                    <!-- <li><img class="pokebola" src="assets/img/pokeball.png" alt="">Water Pulse <button class="delete"
+                            onclick="deletar(this)">Deletar</button>
+                    </li> -->
+
+                </ul>
+
+            </div>
+
+            <div class="golpe">
+                <select name="seletor" id="seletor">
+                    <option value="sss">Golpe 1</option>
+                </select>
+                <button class="add">Adicionar</button>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
